@@ -11,9 +11,8 @@ on:
     branches:
       - main
 
-  #workflow_dispatch:
 
-# Workflow / Jobs
+#workflow_dispatch:
 
 permissions: read all
 
@@ -23,7 +22,6 @@ jobs:
     runs-on: ubuntu-latest
 
     
-     
 
     steps:
       - name: Checkout code
